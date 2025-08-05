@@ -1,1 +1,6 @@
+. filter=lfs diff=lfs merge=lfs -text
+ArtistRelationsEntry.sql filter=lfs diff=lfs merge=lfs -text
+ArtistsEntry.sql filter=lfs diff=lfs merge=lfs -text
+DatabaseCreation.sql filter=lfs diff=lfs merge=lfs -text
+Data.rar filter=lfs diff=lfs merge=lfs -text
 Data/generated_ratings_with_item_info.csv filter=lfs diff=lfs merge=lfs -text
