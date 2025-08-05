@@ -1,9 +1,3 @@
-use MoMA_dataset;
-select * from dbo.artistrelations;
-/*taking liberty to change to maintain consistency of data. For example the Column 0 represents ConstituentID*/
-EXEC sp_rename N'dbo.artistRelations.Column 0',N'ConstituentId',N'Column';
-alter Table dbo.artistRelations Drop Column toArtistName;
-EXEC sp_rename N'dbo.artistRelations.fromArtistid',N'toArtistId',N'Column';
-/*Changing dataypes of columns*/
-Alter TAble dbo.artistRelations Alter Column Constituentid Int;
-Alter TAble dbo.artistRelations Alter Column toArtistid Int;
+version https://git-lfs.github.com/spec/v1
+oid sha256:e8c5a402f068a4f14daabe9b9f02d81481cf804871d55072e81569834d2a7f86
+size 539
